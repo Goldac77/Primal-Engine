@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\App.xaml
-3-1500164514
+4-1463320145
 
-8-1422834674
+8454969435
 13-1310406943
-GameProject\newProjectView.xaml;GameProject\projectBrowser.xaml;MainWindow.xaml;
+GameProject\NewProjectView.xaml;GameProject\OpenProjectView.xaml;GameProject\ProjectBrowserDialog.xaml;MainWindow.xaml;
 
-True
+False
 
