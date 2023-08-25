@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace PrimalEditor.GameProject
 {
     /// <summary>
-    /// Interaction logic for newProjectView.xaml
+    /// Interaction logic for NewProjectView.xaml
     /// </summary>
-    public partial class newProjectView : UserControl
+    public partial class NewProjectView : UserControl
     {
-        public newProjectView()
+        public NewProjectView()
         {
             InitializeComponent();
         }

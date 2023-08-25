@@ -15,21 +15,17 @@ using System.Windows.Shapes;
 namespace PrimalEditor.GameProject
 {
     /// <summary>
-    /// Interaction logic for projectBrowser.xaml
+    /// Interaction logic for ProjectBrowserDialog.xaml
     /// </summary>
-    public partial class projectBrowser : Window
+    public partial class ProjectBrowserDialog : Window
     {
-        public projectBrowser()
+        public ProjectBrowserDialog()
         {
             InitializeComponent();
         }
 
-        private void openProjectButton_Checked(object sender, RoutedEventArgs e)
-        {
 
-        }
-
-        private void onToggleButton_Click(object sender, RoutedEventArgs e)
+        private void OnToggleButton_Click(object sender, RoutedEventArgs e)
         {
             if(sender == openProjectButton)
             {
@@ -39,20 +35,16 @@ namespace PrimalEditor.GameProject
                     browserContent.Margin = new Thickness(0);
                 }
                 openProjectButton.IsChecked = true;
-            } else
+            }
+            else
             {
-                if(openProjectButton.IsChecked == true)
+                if (openProjectButton.IsChecked == true)
                 {
-                    openProjectButton.IsChecked= false;
-                    browserContent.Margin = new Thickness(-1000, 0, 0, 0);
+                    openProjectButton.IsChecked = false;
+                    browserContent.Margin = new Thickness(-800,0,0,0);
                 }
                 createProjectButton.IsChecked = true;
             }
-        }
-
-        private void createProjectButton_Checked(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

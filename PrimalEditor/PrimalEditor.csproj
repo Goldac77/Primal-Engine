@@ -57,11 +57,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="GameProject\newProjectView.xaml">
+    <Page Include="GameProject\NewProjectView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="GameProject\projectBrowser.xaml">
+    <Page Include="GameProject\OpenProjectView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GameProject\ProjectBrowserDialog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -73,11 +77,16 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GameProject\newProjectView.xaml.cs">
-      <DependentUpon>newProjectView.xaml</DependentUpon>
+    <Compile Include="Common\ViewModelBase.cs" />
+    <Compile Include="GameProject\NewProject.cs" />
+    <Compile Include="GameProject\NewProjectView.xaml.cs">
+      <DependentUpon>NewProjectView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GameProject\projectBrowser.xaml.cs">
-      <DependentUpon>projectBrowser.xaml</DependentUpon>
+    <Compile Include="GameProject\OpenProjectView.xaml.cs">
+      <DependentUpon>OpenProjectView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GameProject\ProjectBrowserDialog.xaml.cs">
+      <DependentUpon>ProjectBrowserDialog.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
