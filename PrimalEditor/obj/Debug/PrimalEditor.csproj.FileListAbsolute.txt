@@ -16,3 +16,5 @@ C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\PrimalEditor.exe
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\PrimalEditor.pdb
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\projectBrowser.g.cs
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\projectBrowser.baml
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\newProjectView.g.cs
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\newProjectView.baml
