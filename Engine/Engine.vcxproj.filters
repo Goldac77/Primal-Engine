@@ -42,4 +42,8 @@
       <Filter>InputSystem</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="OpenTK.dll.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
 </Project>

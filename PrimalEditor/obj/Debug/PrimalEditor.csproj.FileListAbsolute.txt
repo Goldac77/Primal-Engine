@@ -14,8 +14,6 @@ C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\PrimalEditor.csproj
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\PrimalEditor.csproj.CoreCompileInputs.cache
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\PrimalEditor.exe
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\PrimalEditor.pdb
-C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\projectBrowser.g.cs
-C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\projectBrowser.baml
 C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\x64\Debug\PrimalEditor.exe.config
 C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\x64\Debug\PrimalEditor.exe
 C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\x64\Debug\PrimalEditor.pdb
@@ -39,3 +37,10 @@ C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\obj\Debug\Ga
 C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\obj\Debug\GameProject\NewProjectView.baml
 C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\obj\Debug\GameProject\OpenProjectView.baml
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\NewProjectView.g.cs
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\OpenProjectView.g.cs
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\ProjectBrowserDialog.g.cs
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\NewProjectView.baml
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\OpenProjectView.baml
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\ProjectBrowserDialog.baml
