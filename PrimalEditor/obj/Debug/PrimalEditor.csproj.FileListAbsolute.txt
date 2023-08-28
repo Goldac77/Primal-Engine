@@ -44,3 +44,8 @@ C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GeneratedInternalTy
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\NewProjectView.baml
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\OpenProjectView.baml
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\ProjectBrowserDialog.baml
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\PrimalEditor.csproj.CopyComplete
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\OpenGLViewWindow.g.cs
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\OpenGLViewWindow.baml
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\OpenGLView.g.cs
+C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\OpenGLView.baml

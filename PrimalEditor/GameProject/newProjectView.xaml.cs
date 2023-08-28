@@ -24,5 +24,11 @@ namespace PrimalEditor.GameProject
         {
             InitializeComponent();
         }
+
+        private void Open_OpenGL(object sender, RoutedEventArgs e)
+        {
+            var openGLViewWindow = new OpenGLViewWindow();
+            openGLViewWindow.Show();
+        }
     }
 }
