@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\
+C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\obj\Debug\
 PrimalEditor
 none
 false
 DEBUG;TRACE
-C:\Users\Goldac77\source\repos\Primal\PrimalEditor\App.xaml
+C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\App.xaml
 62085714505
 
 14-1013969895
-161863629605
+161395004591
 GameProject\NewProjectView.xaml;GameProject\OpenGLView.xaml;GameProject\OpenGLViewWindow.xaml;GameProject\OpenProjectView.xaml;GameProject\ProjectBrowserDialog.xaml;MainWindow.xaml;
 
-True
+False
 

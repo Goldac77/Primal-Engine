@@ -49,3 +49,8 @@ C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\OpenGLV
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\OpenGLViewWindow.baml
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\OpenGLView.g.cs
 C:\Users\Goldac77\source\repos\Primal\PrimalEditor\obj\Debug\GameProject\OpenGLView.baml
+C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\obj\Debug\GameProject\OpenGLView.g.cs
+C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\obj\Debug\GameProject\OpenGLViewWindow.g.cs
+C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\obj\Debug\GameProject\OpenGLView.baml
+C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\obj\Debug\GameProject\OpenGLViewWindow.baml
+C:\Users\hutch\OneDrive\Documents\GitHub\Primal-Engine\PrimalEditor\obj\Debug\PrimalEditor.csproj.CopyComplete
