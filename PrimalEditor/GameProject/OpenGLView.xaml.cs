@@ -26,6 +26,7 @@ namespace PrimalEditor.GameProject
     public partial class OpenGLView : UserControl
     {
         private GraphicsContext graphicsContext;
+        private float rotationAngle = 0.0f;
         public OpenGLView()
         {
             InitializeComponent();
@@ -47,9 +48,56 @@ namespace PrimalEditor.GameProject
             Loaded -= OnLoaded; // Unsubscribe from the event after setup
         }
 
+
+        /* The code below crashes the program
+        public void RenderCube()
+        {
+            GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
+
+            GL.MatrixMode(MatrixMode.Modelview);
+            GL.LoadIdentity();
+            GL.Translate(0.0f, 0.0f, -5.0f);
+            GL.Rotate(rotationAngle, Vector3.UnitY);
+
+            GL.Begin(PrimitiveType.Quads);
+
+            // Front face
+            GL.Color3((System.Drawing.Color)Color4.Red);
+            GL.Vertex3(-1.0f, 1.0f, 1.0f);
+            GL.Vertex3(1.0f, 1.0f, 1.0f);
+            GL.Vertex3(1.0f, -1.0f, 1.0f);
+            GL.Vertex3(-1.0f, -1.0f, 1.0f);
+
+            // Back face
+            GL.Color3((System.Drawing.Color)Color4.Green);
+            GL.Vertex3(-1.0f, 1.0f, -1.0f);
+            GL.Vertex3(1.0f, 1.0f, -1.0f);
+            GL.Vertex3(1.0f, -1.0f, -1.0f);
+            GL.Vertex3(-1.0f, -1.0f, -1.0f);
+
+            // Left face
+            GL.Color3((System.Drawing.Color)Color4.Blue);
+            GL.Vertex3(-1.0f, 1.0f, -1.0f);
+            GL.Vertex3(-1.0f, 1.0f, 1.0f);
+            GL.Vertex3(-1.0f, -1.0f, 1.0f);
+            GL.Vertex3(-1.0f, -1.0f, -1.0f);
+
+            // Right face
+            GL.Color3((System.Drawing.Color)Color4.Yellow);
+            GL.Vertex3(1.0f, 1.0f, -1.0f);
+            GL.Vertex3(1.0f, 1.0f, 1.0f);
+            GL.Vertex3(1.0f, -1.0f, 1.0f);
+            GL.Vertex3(1.0f, -1.0f, -1.0f);
+
+            GL.End();
+
+        }
+        */
+
         private void OnRendering(object sender, EventArgs e)
         {
             // OpenGL rendering code goes here
+            //RenderCube();
 
             // Call SwapBuffers to display the rendered content
             graphicsContext.SwapBuffers();
