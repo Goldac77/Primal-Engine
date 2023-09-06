@@ -11,7 +11,7 @@ namespace PrimalEditor.Utilities
 {
     public static class Serializer
     {
-        public static void Tofile<T>(T instance, string path)
+        public static void ToFile<T>(T instance, string path)
         {
             try
             {
@@ -25,5 +25,25 @@ namespace PrimalEditor.Utilities
                 //Todo: log error
             }
         }
+
+        internal static T FromFile<T>(string path)
+        {
+            try
+            {
+                using var fs = new FileStream(path, FileMode.Open);
+                var serializer = new DataContractSerializer(typeof(T));
+                T instance = (T)serializer.ReadObject(fs);
+                return instance;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                //Todo: log error
+                return default(T);
+            }
+        }
+
+
     }
 }
+ 
