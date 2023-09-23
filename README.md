@@ -9,3 +9,12 @@ When the user starts the engine, the user interface for creating a project and o
 carry on with what he or she will have to do.
 In the create project, that is the new project, it has the type of project thus, **1st person** or **3rd person** and others for the user to choose from.
 The new project and open project have the path and a browse button for the user to choose where an existing project is and also save project to other locations.
+
+  - ### CURRENT FEATURES
+* Support for keyboard and mouse input system
+* Rendering engine design (currently crashes the application in some instances)
+
+  - ### TODO FEATURES
+* Audio system implementation
+* Scritping support
+* Physics sytem 
